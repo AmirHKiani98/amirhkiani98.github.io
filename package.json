@@ -4,7 +4,8 @@
   "description": "Deploying my personal website on github pages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/AmirHKiani98/akiani.github.io#readme",
   "dependencies": {
-    "workflow": "^2.0.6"
+    "glob": "^8.0.3",
+    "path": "^0.12.7",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
   }
 }
