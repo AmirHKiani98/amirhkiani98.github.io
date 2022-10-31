@@ -160,6 +160,7 @@ body{
 .btn:hover{
     transform: translate(0,-6px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    color:white;
 }
 .btn:active{
     transform: translate(0,-1px);
