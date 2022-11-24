@@ -219,7 +219,8 @@ body{
         to top right    
         ,rgba(51, 51, 51, 0.174)
         ,rgba(34, 17, 51, 0.112)
-        ), url("../images/Me2.HEIC");
+        ), url("../images/Me2.jpg");
+    background-position: right 30px center;
     background-size: cover;
 }
 #left_biography{
